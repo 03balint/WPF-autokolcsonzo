@@ -135,7 +135,7 @@ namespace WpfApp4
 
         private bool IsDayValid()
         {
-
+            
             try
             {
                 int days = Convert.ToInt32(Day.Text);
@@ -143,7 +143,7 @@ namespace WpfApp4
                 {
                     MessageBox.Show("A bérlés időtartama 1 és 30 nap között legyen!");
                     return false;
-                }
+                } 
             }
             catch (FormatException)
             {
